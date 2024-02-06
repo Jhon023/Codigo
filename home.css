@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(255, 255, 255);
+    background: url(../imagens/Leonardo_Diffusion_XL_Create_a_minimalist_rural_town_in_the_di_0.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+}
+
+div#form_fundo{
+    background-color: #ffffff;
+    margin: 10% 25% 25% 25%;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px black;
+}
+
+div#form_frente{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px black;
+    padding: 30px;
+
+}
+
+label{
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input{
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: lightskyblue;
+    color: black;
+    
+    
+}
+
+button{
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    color: white;
+}
